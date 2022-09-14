@@ -1,4 +1,4 @@
-## separation_examples
+## Separation Examples
 
 TSP examples showing how to use separation. The first set of codes solve the subtour elimination linear program ("subtour LP"). The latter codes solve the "full" TSP using callback functions where violated inequalities are added on-the-fly.
 
