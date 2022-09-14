@@ -4,7 +4,7 @@ TSP examples showing how to use separation. The first set of codes solve the sub
 
 # Subtour LP codes
 
-First is an MCF code that doesn't use separation, but is useful for debugging purposes. 
+First is a multi-commodity flow (MCF) code that doesn't use separation, but is useful for debugging purposes. 
 
 1. [subtour_LP_via_MCF](https://github.com/AustinLBuchanan/separation_examples/blob/main/subtour_LP_via_MCF.ipynb) 
 
