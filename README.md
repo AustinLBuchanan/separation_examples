@@ -1,8 +1,8 @@
-## Separation Examples
+# Separation Examples
 
 TSP examples showing how to use separation. The first set of codes solve the subtour elimination linear program ("subtour LP"). The latter codes solve the "full" TSP using callback functions where violated inequalities are added on-the-fly.
 
-## Subtour LP codes
+# Subtour LP codes
 
 First is an MCF code that doesn't use separation, but is useful for debugging purposes. 
 1. [subtour_LP_via_MCF](https://github.com/AustinLBuchanan/separation_examples/blob/main/subtour_LP_via_MCF.ipynb) 
@@ -17,18 +17,18 @@ The fourth and fifth codes exploit situations where the support graph (of the LP
 4. [subtour_LP_via_CUT_smarter_cutting_plane_method](https://github.com/AustinLBuchanan/separation_examples/blob/main/subtour_LP_via_CUT_smarter_cutting_plane_method.ipynb)
 5. [subtour_LP_via_DFJ_smarter_cutting_plane_method](https://github.com/AustinLBuchanan/separation_examples/blob/main/subtour_LP_via_DFJ_smarter_cutting_plane_method.ipynb)
 
-## TSP codes
+# TSP codes
 
 Again, we have an MCF code that doesn't use separation, but is useful for debugging purposes. 
 1. [TSP_via_MCF](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_MCF.ipynb) 
 
-# Integer separation codes
+## Integer separation codes
 
 Next are codes that separate integer solutions x, including CUT and DFJ models. Because x is assumed to be integer, the separation problem reduces to finding connected components.
 3. [TSP_via_CUT_integer_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_CUT_integer_separation.ipynb)
 4. [TSP_via_DFJ_integer_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_DFJ_integer_separation.ipynb)
 
-# Fractional separation codes
+## Fractional separation codes
 
 Then we have codes that separate (possibly) fractional solutions x, including CUT and DFJ codes that solve a min cut problem in each callback.
 4. [TSP_via_CUT_naive_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_CUT_naive_fractional_separation.ipynb)
