@@ -42,7 +42,7 @@ Then we have codes that separate (possibly) fractional solutions x, including CU
 
 4. [TSP_via_CUT_naive_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_CUT_naive_fractional_separation.ipynb)
 
-5. [TSP_via_DFJ_naive_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/DFJ_via_DFJ_naive_fractional_separation.ipynb)
+5. [TSP_via_DFJ_naive_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_DFJ_naive_fractional_separation.ipynb)
 
 Finally, we have CUT and DFJ codes that exploit situations where the support graph is disconnected and violated inequalities are easy to find. Min cut problems are solved only as a last resort.
 
