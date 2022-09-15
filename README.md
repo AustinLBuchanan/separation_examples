@@ -50,7 +50,7 @@ Finally, we have CUT and DFJ codes that exploit situations where the support gra
 
 7. [TSP_via_DFJ_smarter_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_DFJ_smarter_fractional_separation.ipynb)
 
-# Symmetric Gomory-Hu Tree Codes
+# Codes for Symmetric Instances That Use Gomory-Hu Trees
 
 When the costs are symmetric, we can work with an undirected graph and compute min cuts using a Gomory-Hu tree. 
 
