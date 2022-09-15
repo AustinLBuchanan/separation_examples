@@ -49,3 +49,28 @@ Finally, we have CUT and DFJ codes that exploit situations where the support gra
 6. [TSP_via_CUT_smarter_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_CUT_smarter_fractional_separation.ipynb)
 
 7. [TSP_via_DFJ_smarter_fractional_separation](https://github.com/AustinLBuchanan/separation_examples/blob/main/TSP_via_DFJ_smarter_fractional_separation.ipynb)
+
+# Symmetric Gomory-Hu Tree Codes
+
+When the costs are symmetric, we can work with an undirected graph and compute min cuts using a Gomory-Hu tree. 
+
+1. [symmetric_subtour_LP_via_CUT_naive_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_subtour_LP_via_CUT_naive_Gomory_Hu_tree.ipynb)
+
+2. [symmetric_subtour_LP_via_DFJ_naive_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_subtour_LP_via_DFJ_naive_Gomory_Hu_tree.ipynb)
+
+3. [symmetric_subtour_LP_via_CUT_smarter_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_subtour_LP_via_CUT_smarter_Gomory_Hu_tree.ipynb)
+
+4. [symmetric_subtour_LP_via_DFJ_smarter_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_subtour_LP_via_DFJ_smarter_Gomory_Hu_tree.ipynb)
+
+5. [symmetric_TSP_via_CUT_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_TSP_via_CUT_Gomory_Hu_tree.ipynb)
+
+6. [symmetric_TSP_via_DFJ_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_TSP_via_DFJ_Gomory_Hu_tree.ipynb)
+
+There are also some 'hybrid' codes that choose whether to add DFJ or CUT constraints depending on which has fewer nonzeros.
+
+7. [symmetric_subtour_LP_via_hybrid_smarter_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_subtour_LP_via_hybrid_smarter_Gomory_Hu_tree.ipynb)
+
+8. [symmetric_TSP_via_hybrid_Gomory_Hu_tree](https://github.com/AustinLBuchanan/separation_examples/blob/main/symmetric_TSP_via_hybrid_Gomory_Hu_tree.ipynb)
+
+
+
